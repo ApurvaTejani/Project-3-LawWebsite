@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background:#2b2923;
+    margin-left:5%;
+    margin-right: 5%;
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2% 5% 5% 5%;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+  
+}
+nav ul li{
+    list-style: none;
+    margin-right:50px;
+    color: rgb(255, 247, 247);
+    font-size: 15px;
+}
+main{
+    display: flex;
+   margin-bottom: 5%;
+
+}
+nav ul .btn{
+color: #a09036;
+width: 325px;
+height:40px;
+border-radius: 10px;
+border-color:#a09036 ;
+font-weight: 600;
+
+}
+.leftsec{
+    width: 50%;
+}
+.rightsec{
+    width: 50%;
+}
+.leftsec h1{
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.rightsec p{
+    font-size: 20px;
+    color: aliceblue;
+}
+
+div img{
+    height:500px;
+    width: 1000px;
+}
